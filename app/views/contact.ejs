@@ -1,3 +1,11 @@
+<!--
+Joel Hutchinson
+301254496
+Oct. 2, 2023
+
+-->
+
+<!-- Included partials of the header and navigation-->
 <%- include ('partials/header.ejs') %>
 <%- include ('partials/nav.ejs') %>
 
@@ -12,6 +20,7 @@ Email: jhutch24@my.centennialcollege.ca</pre>
 <div id="form">
 <h3>I would like to hear from you!</h3>
 <label for="contact"><b>Contact Form</b></label>
+<!-- Action: goes to landing page-->
 <form action="/contactlanding" id="contact" name="contact">
     <label for="first">First Name: </label>
     <input type="text" id="first" name="first">
@@ -33,4 +42,6 @@ Email: jhutch24@my.centennialcollege.ca</pre>
 </form>
 </div>
 </div>
+
+<!-- Included partials of the footer-->
 <%- include ('partials/footer.ejs') %>
